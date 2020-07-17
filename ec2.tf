@@ -1,7 +1,6 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIA2YIADDJH7JJZFIEA"
-  secret_key = "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"
+  profile = "shubhgupta94"
 }
 resource "aws_instance" "os3" {
   ami = "ami-0447a12f28fddb066"
